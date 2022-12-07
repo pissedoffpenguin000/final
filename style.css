@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .l{
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .image-txt {
+    display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: calc(5px + 2vw);
+  padding-left: 250px;
+  padding-right: 250px;
+  gap: 100px;
+  
+  }
+  img{
+    max-width: 250px;
+  }
+  h1, h3{
+    padding-left:70px;
+  }
+  .txt{
+    font-size: 12pt;
+  }
